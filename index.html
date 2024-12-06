@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Em Busca do Planeta Perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/espaconave-passo0.png" alt="Espaçonave pronta para decolar">
+            <p>Você é um explorador espacial em busca de um planeta perdido, mencionado em registros antigos. Com sua espaçonave pronta, você deve escolher seu primeiro destino com base nas pistas disponíveis.</p>
+            <button class="btn-proximo" data-proximo="1">Sistema Solar de Vega</button>
+            <button class="btn-proximo" data-proximo="2">Nebulosa de Andrômeda</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Ao chegar ao Sistema Solar de Vega, você encontra uma lua cheia de ruínas antigas. Explorando-as, descobre inscrições indicando coordenadas para uma nova localização.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir as coordenadas</button>
+            <button class="btn-proximo" data-proximo="4">Retornar à Terra</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Na Nebulosa de Andrômeda, você encontra uma estação espacial abandonada. Dentro dela, há um holograma que fala sobre um planeta escondido em uma galáxia distante.</p>
+            <button class="btn-proximo" data-proximo="5">Seguir as informações do holograma</button>
+            <button class="btn-proximo" data-proximo="6">Explorar a estação com mais detalhes</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>As coordenadas levam você a um planeta coberto por oceanos. Em uma ilha isolada, você encontra uma mensagem que diz: "O verdadeiro caminho está nas estrelas gêmeas".</p>
+            <button class="btn-proximo" data-proximo="7">Procurar pelas estrelas gêmeas</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/passo4-retorno-terra.png" alt="Espaçonave retornando para a Terra">
+            <p>Você decide que a missão é perigosa demais e retorna à Terra. No entanto, sempre se pergunta o que teria encontrado no espaço.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Seguindo as informações do holograma, você chega a um campo de asteroides, onde encontra sinais de um portal intergaláctico.</p>
+            <button class="btn-proximo" data-proximo="7">Entrar no portal</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando a estação com mais detalhes, você ativa um alarme antigo que destrói as informações valiosas. Sem pistas, você decide voltar.</p>
+            <button class="btn-proximo" data-proximo="8">Retornar ao holograma</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Ao seguir as estrelas gêmeas ou atravessar o portal, você encontra um planeta escondido entre nebulosas, brilhando com um estranho campo de energia.</p>
+            <button class="btn-proximo" data-proximo="9">Explorar o planeta perdido</button>
+            <button class="btn-proximo" data-proximo="10">Retornar e documentar sua descoberta</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Ao retornar ao holograma, ele se autodestrói. Sem informações, você perde a chance de encontrar o planeta perdido.</p>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="img/passo9-planeta-perdido.png" alt="Planeta perdido com paisagens exuberantes">
+            <p>No planeta perdido, você descobre vida alienígena avançada e tesouros tecnológicos. Você decide estudar e proteger o lugar.</p>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você decide documentar sua descoberta sem explorar o planeta. Ao retornar, é aclamado(a) por cientistas, mas sempre se pergunta o que mais havia lá.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
